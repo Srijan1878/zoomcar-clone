@@ -1,0 +1,37 @@
+.topbarContainer{
+    background-color: #33414f;
+    width: 100vw;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px
+}    
+.navListContainer{
+    display: flex;
+    width: 45vw;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    margin-right: 25px;
+} 
+.navListItem{
+    font-weight:400;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+.logoContainer{
+    display: flex;
+    align-items: flex-start;
+    width: 54vw;
+    color: #fff;
+    height: 64px;
+    align-items: center;
+}
+.logoContainer svg{
+    cursor: pointer;
+    width: 105px;
+    height: 27px;
+}

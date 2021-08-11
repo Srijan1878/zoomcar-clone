@@ -1,0 +1,577 @@
+.heroSectionContainer{
+    width: 100vw;
+    height: 520px;
+    background-image: url("https://www.linkpicture.com/q/HeroSectionImage.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+.container{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.ImageOverlayContainer{
+    color: white; 
+    position: absolute;
+    top: 20vw;
+    height: 195px;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    padding-bottom: 0px;
+}
+.ImageDescContainer{
+    margin-bottom: 10px;
+}
+.ImageOverlayText{
+    font-size: 44px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 1.2px;
+}
+.ImgOverlayTextDescription{
+    text-align: center;
+      margin-right: 24px;
+    margin-top: -19px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cityText{
+    margin-left: 2.5px;
+    font-weight: bold;
+    border-bottom: 1.5px dashed white;
+}
+.ImgOverlayTextDescriptionBottom{
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    color: black;
+    width: 520px;
+    transform: translateX(15%);
+    height: 60px;
+    vertical-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin: 0;
+    padding-left: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.advantagesCardSection{
+    background-color: #eee;
+    color: #666666;
+    width: 100vw;
+    height: 486px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.advnatagesCardContainer{
+    width: 830px;
+    display: flex;
+    height: 346px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cardComponent{
+    background-color: white;
+    width: 270px;
+    height: 163px;
+    display: flex;
+    flex-direction: column;
+}
+.fuel{
+    width: 50px;
+    height: 80px;
+    margin: auto;
+}
+.cardImg{
+    width: 80px;
+    height: 50px;
+    margin: auto;
+}
+.cardTitle{
+    color: #70ad4d;
+    margin: 0;
+    text-align: center;
+}
+.superMilerSection{
+    width: 100vw;
+    height: 350px;
+    background-position: center;
+    position: relative;
+    background-color: rgba(0,0,0,1);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    overflow: hidden;
+}
+.superMilerLogo{
+    width: 100px;
+    height: 80px;
+    margin-bottom: 25px;
+}
+.superMilerDescription{
+    position: relative;
+    color: #9b9b9b;
+    font-size: 14px;
+}
+.superMilerDescription::after{
+content: '';
+width: 40px;
+height: 1px;
+background-color: white;
+position: absolute;
+top: 10px;
+right: -45px;
+}
+
+.superMilerDescription::before{
+    content: '';
+    width: 40px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: -45px;
+}
+.singleCardComponent p{
+    font-weight: 400;
+    font-size: 14px;
+    color:#323a44;
+    margin:0px;
+    margin-top: 15px;
+}
+.singleCardComponent h4{
+    font-weight: 700;
+    font-size: 14px;
+    color:#323a44;
+    margin:0px;
+
+}
+.superMilerImage{
+    width: 100%;
+     height:600px; 
+     position: absolute;
+     bottom: -50px;
+     object-fit: fill;
+     background-size: cover;
+    opacity:0.4;
+    object-fit:inherit
+}
+.superMilerDescriptionContainer{
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.earnCardContainer{
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.earnCard{
+background-color: white;
+width: 185px;
+padding-left: 5px;
+padding-right: 5px;
+height: 130px;
+
+
+border-radius: 3px;
+bottom: 0px;
+margin-top: 10px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+-webkit-box-shadow: 0 20px 20px -10px #eee;
+box-shadow: 0 20px 20px -10px #eee;
+}
+.earnCardWrapper{
+    position: absolute;
+    left: 50%;
+    width: 185px;
+    transform: translateX(-50%) translateY(-30%);
+    display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.coins{
+    width: 90px;
+    height: 75px;
+}
+.learnMoreBtn{
+    padding: 10px 60px ;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #666;
+    background-color: white;
+    width: 208px;
+    height: 41px;
+    margin-top: 12px;
+    margin-left: -1px;
+}
+.learnMoreBtn:hover{
+    border-color: #70ad4d;
+}
+.zoomcarWorksSection{
+    width: 100vw;
+    height: 599px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.singleCardComponent{
+    -webkit-box-shadow: 0 12px 22px 2px rgb(0 0 0 / 10%);
+    box-shadow: 0 12px 22px 2px rgb(0 0 0 / 10%);
+    width: 203px;
+    height: 200px;
+}
+.howItWorksCardSection{
+    display: flex;
+    justify-content: space-between;
+}
+.howZoomcarWorksTitle{
+    color: #666666;
+}
+.howZoomcarWorksDesc{
+    color: #323a44
+}
+.signUpBtn{
+    padding: 10px 60px ;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #666;
+    background-color: white;
+    width: 176;
+    height: 41px;
+    margin-top: 50px;
+}
+.signUpBtn:hover{
+    border-color: #70ad4d;
+}
+.appImage{
+    width: 100vw;
+    font-family: 'open sans', sans-serif;
+    height: 602px;
+    background-image: url("https://www.linkpicture.com/q/app_bg.daa074b25be54e8df493f629f6a10f61.jpg");
+    background-size: cover;
+    color: white;
+    display: flex; 
+    align-items: center;
+}
+.appStoreContainer{
+    display: flex;
+}
+.downloadAppContainer{
+    margin-left: 235px;
+    margin-top: -6px;
+}
+.appDownloadStatsIconsContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+.singleIcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'open sans', sans-serif;
+}
+.icon{
+    width: 75 ;
+    height: 75px;
+}
+.singleIcon{
+    margin-top: 70px;
+}
+.singleIcon p,.singleIcon h2{
+    margin: 0%;
+    color: #323a44;
+}
+.singleIcon h2{
+    font-size: 30px;
+}
+.singleIcon p{
+    font-size: 18px;
+}
+.singleIcon h5{
+    font-family: 'open sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0%;
+}
+.reviewsContainer{
+    width: 100vw;
+    height: 540px;
+    margin-top: 40px;
+}
+.quotationAndReviewsWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reviewsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://www.linkpicture.com/q/testimonial_bg.499d1dd2876b931e9cf0509e3d1884f5.jpg");
+}
+.reviewsWrapper p{
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    width: 900px;
+    text-align: center;
+}
+.nextReview{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.nextFirstLine{
+    width: 120px;
+    height: 2px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+.nextSecondLine{
+    width: 120px;
+    height: 2px;
+    background-color: white;
+    transform-origin: right;
+    transform: rotate(-45deg) translateY(15px) translateX(-40px);
+}
+.reviewsWrapper{
+    display: flex;
+}
+.previousReview{
+    margin-right: 30px;
+    transform: scaleX(-1);
+    margin-top: 20px;
+}
+.previousFirstLine{
+    width: 120px;
+    height: 2px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+.previousSecondLine{
+    width: 120px;
+    height: 2px;
+    background-color: white;
+    transform-origin: right;
+    transform: rotate(-45deg) translateY(15px) translateX(-40px);
+}
+.authorName{
+    font-size: 24px;
+    color: #70ad4d;
+    font-weight: 600;
+}
+.reviewSliders{
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.prevSliderBtn{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    transform: rotate(45deg);
+}
+.nextSliderImg{
+    transform: scale(-1);
+}
+.nextSliderBtn{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    transform: rotate(45deg);
+}
+.optionsContainer{
+    height: 159px;
+    width: 100vw;
+    background-color: #43505c;
+}
+.footerPageLinks{
+    background-color: #33414f;
+    height: 770px;
+    width: 100vw;
+    padding-top: 25px;
+}
+.singleCardComponent{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 12px;
+    padding: 5px;
+}
+.logoFixedTopbar{
+    width:62vw;
+    display: flex;
+    justify-content: flex-start;
+}
+.optionsContainer{
+    display: flex;
+    justify-content: center;
+   
+}
+.singleOption{
+    width: 240px;
+    height: 159px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.singleOption p{
+    font-family: 'open sans',sans-serif;
+    color: white;
+    font-size: 16px;
+}
+.fixedTopbarImgOverlayTextDescriptionBottom{
+    border: 1px solid #323a44;
+    padding-left: 8px ;
+    padding-right: 20px ;
+    width: 520px;
+    font-family: 'open sans',sans-serif;
+    padding-top:15px;
+    border-radius:3px;
+    padding-bottom:15px;
+}
+.fixedTopbar{
+    width: 100vw;
+    height: 80px;
+    margin-top: -65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: white;
+    overflow: hidden;
+    z-index: 99;
+}
+.queriesIcon{
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.policiesIcon{
+    width: 40px;
+    height: 35px;
+}
+.helpAndSupportIcon{
+    width: 40px;
+    height: 35px;
+}
+.safetyIcon{
+    width: 40px;
+    height: 35px;
+}
+.singleOption:hover{
+background: #323c45;
+}
+.singleOption:hover p{
+    color: #bedaae;
+}
+.contactUsContainer{
+    width: 100vw;
+    font-family: 'open sans',sans-serif;
+    height: 220px;
+    background-color: #33414f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sperationLine{
+    width: 150vw;
+    background-color: #CCC;
+    height: 2px;
+    opacity: .7;
+}
+.socialMediaIconsContainer{
+    display: flex;
+    margin-left: -10px;
+}
+.socialMediaIconsContainer svg{
+height: 25px;
+width: 40px;
+}
+.contactUsWrapper{
+    display: flex;
+    width: 880px;
+    flex-direction: column;
+    margin-top: 12px;
+}
+.cityBasedInformation{
+    height: 607px;
+    width: 100vw;
+    background-color: white;
+}
+.cityBasedInformation{
+    display: flex;
+    flex-direction: column;
+    width: 880px;
+}
+.singleParaComponent{
+    display: flex;
+    flex-direction: column;
+}
+.singleParaComponent h2{
+    color: #666666;
+    font-weight: 700;
+    margin: 0%;
+    margin-top: 18px;
+}
+.singleParaComponent p{
+    color: #323a44;
+    font-weight: 400;
+    margin: 0%;
+    font-size: 13px;
+    margin-top: 4px;
+}
+.cityBasedInformationContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.singleLinkSection{
+    display: flex;
+    flex-direction: column;
+}
+.bulkPageLinkSection{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: auto;
+}
+.singleLinkSection p{
+    color: white;
+    font-size: 14px;
+    margin: 0;
+    margin:10px
+}
